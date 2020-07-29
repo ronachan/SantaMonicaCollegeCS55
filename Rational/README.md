@@ -12,7 +12,7 @@ Write a JFrame or JApplet (file name: TestRational.java) that performs the follo
   
         Rational a[], b[];
         a = new Rational[10];
-        b = new Rational[10];\
+        b = new Rational[10];
         
   **b)** Initialize the arrays by creating random Rational numbers. Generate two random numbers between 1-9 for each Rational using the numbers as the numerator and denominator (use Math.random). The denominator should be greater than the numerator.\
   **c)** Display the contents of both arrays on the screen using JTextArea.\
