@@ -1,0 +1,3 @@
+Instructions:
+-A copy of the 'Map' folder must be located on the desktop of the machine
+-Run the program from the .exe or .jar file. (You can also run RunProgram.class in the 'Program Code' folder using the JVM)

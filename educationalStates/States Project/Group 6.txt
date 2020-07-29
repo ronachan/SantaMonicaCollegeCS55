@@ -1,0 +1,10 @@
+Group 6
+-Joshua Barsky
+-Quan Gao
+-Rona Chan
+-Mychale Fowler
+-Waka Inoue
+
+Program Info:
+This program is designed to give the user an experience of being able to study the map
+of the U.S.A. and quizing themselves on their knowledge of the capitals.

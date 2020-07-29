@@ -1,0 +1,53 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 86%}
+    50%{background-position:100% 15%}
+    100%{background-position:0% 86%}
+}
+
+body {
+background: linear-gradient(233deg, #fbdae0, #fd868c, #fe9a8b, #ff758c);
+background-size: 800% 800%;
+animation: AnimationName 41s ease infinite;
+
+}
+
+#chartdiv {
+	width	: 100%;
+	height	: 700px;
+  //color: #fffff;
+  //fill: url(#sample);
+}
+#chartdiv .amcharts-map-area {
+  opacity: 0.5;
+    -webkit-transition: all .5s cubic-bezier(0,.45,.15,2);
+  -webkit-transform-origin: 50% 50%;
+  
+  transition: all .3s cubic-bezier(0,.45,.15,2);
+  transform-origin: 50% 50%;
+  //filter: url(#blur);
+}
+#chartdiv:hover .amcharts-map-area:hover {
+  opacity: 1;
+  //fill: url(#sample);
+  //filter: url(#blur);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.ammapDescriptionWindow {
+  background-color: #ffffff;
+  padding: 10px;
+ // height: 1510px;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 10px;
+  opacity: 0.8;
+  overflow: auto;
+}
+
+.ammapDescriptionTitle {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
