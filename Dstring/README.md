@@ -11,5 +11,5 @@ Write a program that reads a string from the keyboard. If the length of the stri
     Output:       ToBeOrN
                   otToBe
                   
-Please save the program witht he name **'Palindrome.java'**\
+Please save the program with the name **'Palindrome.java'**\
 Write a method which returns true if the string parameter is a *palindrome*. A palindrome is any "word" which is the same forward and backward ("radar", "noon", "20011002", ...). The function should return false if the argument is not a palindrome. 
